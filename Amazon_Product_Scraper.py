@@ -1,12 +1,14 @@
 # This program allows the user to enter a URL from Amazon's product page
 # It will grab all the names of the products and the prices of each product
 # It will neatly display the information in a csv file
+# By: Eric Qian 
 
 from bs4 import BeautifulSoup as soup  # HTML data structure
 from urllib.request import urlopen as uReq  # Web client
 
 # URl to web scrap from
 # Use search bar in Amazon to find the product you want, replace the URL below, only works with Amazon
+# This URL grabs laptop information, but you can enter whatever you want 
 page_url = "https://www.amazon.com/s?k=laptops+on+sale&crid=2C4X6Q1OC685C&sprefix=laptop%2Caps%2C152&ref=nb_sb_ss_ts-a-p_3_6"
 
 # opens the connection and downloads html page from url

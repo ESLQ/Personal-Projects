@@ -1,4 +1,4 @@
-# This program allows the user to enter a URL from Amazon's product page
+# This program allows the user to enter a URL from an Amazon's product page
 # It will grab all the names of the products and the prices of each product
 # It will neatly display the information in a csv file
 # By: Eric Qian 

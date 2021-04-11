@@ -17,7 +17,7 @@ opener = build_opener()
 opener.addheaders = [("User-agent", "Mozilla/5.0")]
 uClient = opener.open(page_url)
 
-# parses html into a soup data structure to traverse html as if it were a json data type.
+# parses html into a soup data structure to traverse html
 page_soup = soup(uClient.read(), "html.parser")
 uClient.close()
 

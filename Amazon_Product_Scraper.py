@@ -9,7 +9,7 @@ from urllib.request import build_opener
 
 # URl to web scrape from
 # Use search bar in Amazon to find the product you want, replace the URL below, only works with Amazon.com
-# This URL grabs laptop information, but you can enter whatever you want
+# This URL grabs iPhone information, but you can enter whatever you want
 page_url = "https://www.amazon.com/s?k=toys&ref=nb_sb_noss_1"
 
 # opens the connection and downloads html page from url
